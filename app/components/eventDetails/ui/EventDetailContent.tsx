@@ -173,7 +173,7 @@ export default function EventDetailContent({
             <Stack
               direction={{ xs: "column", sm: "row" }}
               spacing={2}
-              sx={{ alignItems: "stretch" }}
+              sx={{ alignItems: "stretch", overflow: "scroll" }}
             >
               {event.relatedEvents.map((re: EventInterface) => (
                 <Card
